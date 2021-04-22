@@ -1,0 +1,157 @@
+.primapagina ul {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  overflow-x:hidden;
+  display: grid;
+  max-width: 100%;
+  grid-auto-flow: column;
+  margin-top: 30px;
+}
+
+.primapagina li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 1;
+  margin: 0;
+  font: bold 22px 'Georgia';
+  background-color: rgba(136, 136, 136, 0.2);
+  padding: 0;
+  transition: all .5s;
+}
+
+.menu:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+#icona {
+  left: 20px;
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+  position: relative;
+  cursor: pointer;
+}
+#icona2 {
+  left: 20px;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    position: relative;
+    cursor: pointer;
+  }
+  #icona3 {
+    left: 20px;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    position: relative;
+    cursor: pointer;
+  }
+
+.contenitore {
+  top: 1%;
+  padding: 0;
+  width: 35px;
+  margin: 0;
+  left: 25px;
+}
+
+.contenitore:hover #icona, .contenitore:hover #icona2, .contenitore:hover #icona3 {
+  background-color: gold;
+}
+
+.menu-tendina {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: #2121214f;
+  overflow-x: hidden;
+  transition: all 0.5s;
+}
+
+.menu-contenitore {
+  position: relative;
+  top: 15%;
+  width: 80%;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.menu-tendina:hover {
+    background-color: #212121e3;
+
+}
+
+.menu-tendina a {
+  padding: 8px;
+  line-height: 50px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffffe0;
+  display: block;
+  transition: 0.3s;
+}
+
+.menu-tendina .menu-contenitore a:hover {
+  color: #8A6B2B;
+  font-size: 200%;
+  padding-bottom: 15px;
+  border-left: solid 5px #8A6B2B;
+  padding-left: 30px;
+}
+
+.menu-tendina .chiudimenu {
+  position: absolute;
+  top: 20px;
+  left: 295px;
+  font-size: 60px;
+}
+
+#menutitolo {
+  width: 90px;
+  position: relative;
+  left: 65%;
+  margin: 0;
+}
+
+#menutitolo img {
+  position: relative;
+  width: 90px;
+  margin-top: 0px;
+}
+
+.menu #menudx {
+  margin-top: 10px;
+  padding: 0;
+  color: rgb(19, 105, 19);
+  text-decoration: none;
+  float: right;
+  font-size: 20px;
+  padding-right: 200px;
+}
+
+.menu #menudx font {
+  letter-spacing: 5px;
+  font-size: 30px;
+  vertical-align: -10%;
+}
+
+.menu #menudx:hover {
+  color: rgb(5, 58, 5);
+  cursor: pointer;
+}
